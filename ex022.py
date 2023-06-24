@@ -1,0 +1,6 @@
+frase = str(input('Digite seu nome: ')).strip()
+print('Seu nome em maiúscula é: ', (frase.upper()))
+print('Seu nome em minúscula é: {}'.format(frase.lower()))
+print('Seu nome tem {} letras.'.format(len(frase) - frase.count(' ')))
+separa = frase.split()
+print('Seu primeiro nome é {} e ele tem {} letras.'.format(separa[0], len(separa[0])))
